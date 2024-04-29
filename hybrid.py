@@ -81,7 +81,7 @@ def hybrid(train, test):
 			 mean([FAR1, FAR2, FAR3]),
 			 min([FAR1, FAR2, FAR3]),
 			 max([FAR1, FAR2, FAR3]),
-			 avg([EER1, EER2, EER3])]
+			 mean([EER1, EER2, EER3])]
 			 
 	return stats
 
